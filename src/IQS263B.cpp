@@ -6,6 +6,7 @@
 CAPWHEEL2_RETVAL capwheel2_init()
 {
     Wire.begin();
+    Wire.setClock(400000);
     pinMode(RDY_PIN, INPUT);
     return CAPWHEEL2_OK;
 }
