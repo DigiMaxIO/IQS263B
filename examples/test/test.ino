@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#include <capwheel2.h>
+#include <IQS263B.h>
 
 static uint8_t data_buffer[30];
 
